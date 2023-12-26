@@ -1,4 +1,12 @@
-alert("Hello!");
+/* Pequeno projeto para praticar lógica e programação
+* e ainda ver e praticar desenvolvimento web
+*
+*   Escrito originalmente por Caio Cezar, em Dezembro de 2023.
+*   
+*                                                       v0.2a
+*/
+
+alert("Olá!");
 let peso;
 let altura;
 let imc;
@@ -10,5 +18,5 @@ function calculateIMC(peso, altura){
     return imc;
 }
 calculateIMC(peso, altura);
-console.log(imc);
-alert(imc);
+console.log(imc.toFixed(3));
+alert(`O seu IMC é ${imc.toFixed(3)}.`);
